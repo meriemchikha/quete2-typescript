@@ -1,0 +1,19 @@
+{
+  "name": "@quete-typescript/quete2-typescript",
+  "version": "1.0.1",
+  "description": "",
+  "main": "./lib/index.js",
+  "types":"./lib/index.d.ts",
+  "files":["lib"],
+  "scripts": {
+     "clean": "rimraf ./lib/*",
+     "build":"npm run clean && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^5.1.0",
+    "typescript": "^5.4.5"
+  }
+}
